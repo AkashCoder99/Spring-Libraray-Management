@@ -1,0 +1,5 @@
+package com.akash.bookStore.entity;
+
+public class Book {
+
+}

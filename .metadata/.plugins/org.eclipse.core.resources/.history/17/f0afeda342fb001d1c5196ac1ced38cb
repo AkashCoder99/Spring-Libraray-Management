@@ -1,0 +1,13 @@
+package com.akash.bookStore.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class BookController {
+
+	public ModelAndView hello() {
+		ModelAndView mav = new ModelAndView("hello");
+		return mav;
+	}
+}
